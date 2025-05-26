@@ -20,6 +20,37 @@ export default function Navigation() {
             <Link href="#contact" className="text-primary-500 hover:text-primary-400">
               Contact
             </Link>
+            <a 
+              style={{
+                display: 'inline-block',
+                backgroundColor: '#FC5200',
+                color: '#fff',
+                padding: '5px 10px 5px 30px',
+                fontSize: '11px',
+                fontFamily: 'Helvetica, Arial, sans-serif',
+                whiteSpace: 'nowrap',
+                textDecoration: 'none',
+                backgroundRepeat: 'no-repeat',
+                backgroundPosition: '10px center',
+                borderRadius: '3px',
+                backgroundImage: 'url("https://badges.strava.com/logo-strava-echelon.png")'
+              }}
+              href="https://strava.com/athletes/1395439"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Follow me on
+              <img 
+                src="https://badges.strava.com/logo-strava.png" 
+                alt="Strava" 
+                style={{
+                  marginLeft: '2px',
+                  verticalAlign: 'text-bottom'
+                }}
+                height={13}
+                width={51}
+              />
+            </a>
           </div>
 
           <button className="md:hidden text-primary-500">
