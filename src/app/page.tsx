@@ -11,33 +11,6 @@ export default function Home() {
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error' | 'duplicate'>('idle');
   const [message, setMessage] = useState('');
 
-  async function handleSubmit(e: React.FormEvent) {
-    e.preventDefault();
-    setStatus('loading');
-    setMessage('');
-    try {
-      const res = await fetch('/api/signup', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(form),
-      });
-      if (res.status === 201) {
-        setStatus('success');
-        setMessage('Thank you for joining the waiting list!');
-        setForm({ name: '', email: '' });
-      } else if (res.status === 409) {
-        setStatus('duplicate');
-        setMessage('This email is already registered.');
-      } else {
-        setStatus('error');
-        setMessage('Something went wrong. Please try again.');
-      }
-    } catch {
-      setStatus('error');
-      setMessage('Something went wrong. Please try again.');
-    }
-  }
-
   return (
     <div className="flex flex-col min-h-screen">
       <Navigation />
