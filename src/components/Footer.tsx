@@ -44,7 +44,7 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-semibold mb-4 text-primary-400">Newsletter</h4>
             <p className="text-primary-600 mb-4">
-              Don't miss what's next.
+              Don&apos;t miss what&apos;s next.
             </p>
             <div className="flex">
               <input

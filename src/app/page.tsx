@@ -1,16 +1,12 @@
 "use client";
 
-import React, { useState } from 'react'
+import React from 'react'
 import Image from 'next/image'
 import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
 // import ResilienceSoilStats from '@/components/ResilienceSoilStats'
 
 export default function Home() {
-  const [form, setForm] = useState({ name: '', email: '' });
-  const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error' | 'duplicate'>('idle');
-  const [message, setMessage] = useState('');
-
   return (
     <div className="flex flex-col min-h-screen">
       <Navigation />
