@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Navigation() {
   return (
@@ -34,9 +35,9 @@ export default function Navigation() {
               rel="noopener noreferrer"
             >
               Follow me on
-              <img 
-                src="https://badges.strava.com/logo-strava.png" 
-                alt="Strava" 
+              <Image
+                src="https://badges.strava.com/logo-strava.png"
+                alt="Strava"
                 style={{
                   marginLeft: '2px',
                   verticalAlign: 'text-bottom'

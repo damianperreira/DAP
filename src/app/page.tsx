@@ -5,8 +5,6 @@ import React from 'react'
 import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
 // import ResilienceSoilStats from '@/components/ResilienceSoilStats'
-// Import the Script component
-import Script from 'next/script';
 
 export default function Home() {
   return (
@@ -37,16 +35,6 @@ export default function Home() {
         </div>
       </section>
       {/* <ResilienceSoilStats /> */}
-
-      {/* Strava Embed Section */}
-      <section className="py-12 bg-white">
-        <div className="container mx-auto px-4 flex justify-center">
-          <div className="strava-embed-placeholder" data-embed-type="activity" data-embed-id="14620981093" data-style="standard" data-from-embed="false"></div>
-        </div>
-      </section>
-
-      {/* Add Script component for Strava embed */}
-      <Script src="https://strava-embeds.com/embed.js" strategy="afterInteractive" />
 
       {/* Solutions Section */}
       <section className="py-20 bg-primary-700">
