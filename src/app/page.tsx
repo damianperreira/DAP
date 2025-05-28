@@ -14,7 +14,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <Image
-          src="/DAP/hero-bg.jpeg"
+          src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/hero-bg.jpeg`}
           alt="Hero background"
           fill
           className="object-cover z-0"
