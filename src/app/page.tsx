@@ -36,6 +36,13 @@ export default function Home() {
       </section>
       {/* <ResilienceSoilStats /> */}
 
+      {/* Strava Embed Section */}
+      <section className="py-12 bg-white">
+        <div className="container mx-auto px-4 flex justify-center">
+          <div className="strava-embed-placeholder" data-embed-type="activity" data-embed-id="14620981093" data-style="standard" data-from-embed="false"></div><script src="https://strava-embeds.com/embed.js"></script>
+        </div>
+      </section>
+
       {/* Solutions Section */}
       <section className="py-20 bg-primary-700">
         <div className="container mx-auto px-4">
