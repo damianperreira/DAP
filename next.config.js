@@ -4,6 +4,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  basePath: '/DAP',
+  assetPrefix: '/DAP',
 };
 
 module.exports = nextConfig; 
