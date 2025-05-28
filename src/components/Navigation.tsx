@@ -11,12 +11,6 @@ export default function Navigation() {
           </Link>
           
           <div className="hidden md:flex items-center space-x-8">
-            <Link href="#solutions" className="text-primary-500 hover:text-primary-400">
-              Your Data. Your Journey.
-            </Link>
-            <Link href="#about" className="text-primary-500 hover:text-primary-400">
-              About
-            </Link>
             <Link href="#contact" className="text-primary-500 hover:text-primary-400">
               Contact
             </Link>
