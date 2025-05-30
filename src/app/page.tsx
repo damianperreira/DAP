@@ -42,15 +42,15 @@ export default function Home() {
           <h2 className="text-4xl font-bold text-center mb-12 text-primary-500">Your Data. Your Journey.</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <div className="bg-primary-800 p-8 rounded-lg shadow-lg">
-              <h3 className="text-2xl font-bold mb-4 text-primary-500">For Industrials</h3>
+              <h3 className="text-2xl font-bold mb-4 text-primary-500">Health and Wellness</h3>
               <ul className="space-y-4">
                 <li className="flex items-center text-primary-500">
                   <span className="text-primary-400 mr-2">✓</span>
-                  Strategic planning for sustainable sourcing
+                  Strategic Route Planning and Sharing for outdoor running or cycling
                 </li>
                 <li className="flex items-center text-primary-500">
                   <span className="text-primary-400 mr-2">✓</span>
-                  Get impact data specific to your sourcing
+                  Share data specific to your activity from your favorite apps
                 </li>
                 <li className="flex items-center text-primary-500">
                   <span className="text-primary-400 mr-2">✓</span>
@@ -59,19 +59,19 @@ export default function Home() {
               </ul>
             </div>
             <div className="bg-primary-800 p-8 rounded-lg shadow-lg">
-              <h3 className="text-2xl font-bold mb-4 text-primary-500">For Suppliers</h3>
+              <h3 className="text-2xl font-bold mb-4 text-primary-500">Nutrition and Recipes</h3>
               <ul className="space-y-4">
                 <li className="flex items-center text-primary-500">
                   <span className="text-primary-400 mr-2">✓</span>
-                  Promoting sustainable value chains
+                  Sharing sustainable personalized nutritional strategies
                 </li>
                 <li className="flex items-center text-primary-500">
                   <span className="text-primary-400 mr-2">✓</span>
-                  Get unprecedented control over data attached to the raw materials production
+                  Best quality supplementation recommendations
                 </li>
                 <li className="flex items-center text-primary-500">
                   <span className="text-primary-400 mr-2">✓</span>
-                  Spot the best agricultural practices
+                  Spot the emerging practices and trends in nutrition
                 </li>
               </ul>
             </div>
