@@ -9,15 +9,16 @@ export default function Footer() {
           <div>
             <h3 className="text-2xl font-bold text-primary-400 mb-4">ZenRider</h3>
             <p className="text-primary-600">
-              Business Sustainability powered by Soil Intelligence
+              Health and Wellness powered by Intelligence
             </p>
           </div>
           
           <div>
             <h4 className="text-lg font-semibold mb-4 text-primary-400">Contact</h4>
-            <p className="text-primary-600">contact@zenrider.live</p>
-            <p className="text-primary-600">9 rue Saint-Fiacre</p>
-            <p className="text-primary-600">75002 Paris, France</p>
+            <p className="text-primary-600">sintabu@yahoo.com</p>
+            <p className="text-primary-600">Fort Lauderdale, FL</p>
+            <p className="text-primary-600">San Diego, CA</p>
+            <p className="text-primary-600">Austin, TX</p>
           </div>
           
           <div>
@@ -44,7 +45,8 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-semibold mb-4 text-primary-400">Newsletter</h4>
             <p className="text-primary-600 mb-4">
-              Don&apos;t miss what&apos;s next.
+              {/* Don&apos;t miss what&apos;s next. */}
+              Sign up to receive updates and insights
             </p>
             <div className="flex">
               <input
