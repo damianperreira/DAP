@@ -86,15 +86,15 @@ export default function Home() {
           <div className="max-w-lg mx-auto bg-primary-800 p-8 rounded-lg shadow-lg">
             <form action="https://formspree.io/f/xvgaeapy" method="POST">
               <div className="mb-4">
-                <label htmlFor="name" className="block text-primary-200 text-sm font-bold mb-2">Name:</label>
+                <label htmlFor="name" className="block text-primary-500 text-sm font-bold mb-2">Name:</label>
                 <input type="text" id="name" name="name" className="shadow appearance-none border rounded w-full py-2 px-3 text-primary-900 leading-tight focus:outline-none focus:shadow-outline" required />
               </div>
               <div className="mb-4">
-                <label htmlFor="email" className="block text-primary-200 text-sm font-bold mb-2">Email:</label>
+                <label htmlFor="email" className="block text-primary-500 text-sm font-bold mb-2">Email:</label>
                 <input type="email" id="email" name="email" className="shadow appearance-none border rounded w-full py-2 px-3 text-primary-900 leading-tight focus:outline-none focus:shadow-outline" required />
               </div>
               <div className="mb-6">
-                <label htmlFor="message" className="block text-primary-200 text-sm font-bold mb-2">Message:</label>
+                <label htmlFor="message" className="block text-primary-500 text-sm font-bold mb-2">Message:</label>
                 <textarea id="message" name="message" rows={6} className="shadow appearance-none border rounded w-full py-2 px-3 text-primary-900 leading-tight focus:outline-none focus:shadow-outline" required></textarea>
               </div>
               <div className="flex items-center justify-center">
