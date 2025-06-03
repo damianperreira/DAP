@@ -12,7 +12,7 @@ export default function Home() {
       <Navigation />
       
       {/* Hero Section */}
-      <section className="relative h-screen flex items-center justify-center overflow-hidden" style={{ backgroundImage: 'url(/hero-bg.jpeg)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+      <section className="relative h-screen flex items-center justify-center overflow-hidden" style={{ backgroundImage: 'url(/hero-bgX.jpeg)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="absolute inset-0 bg-black/40 z-10" />
         <div className="container mx-auto px-0 text-center relative z-20 flex justify-center items-center h-full w-full">
           <div
