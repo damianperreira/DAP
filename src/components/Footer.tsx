@@ -42,23 +42,8 @@ export default function Footer() {
             </ul>
           </div>
           
-          <div>
-            <h4 className="text-lg font-semibold mb-4 text-primary-400">Newsletter</h4>
-            <p className="text-primary-600 mb-4">
-              {/* Don&apos;t miss what&apos;s next. */}
-              Sign up to receive updates and insights
-            </p>
-            <div className="flex">
-              <input
-                type="email"
-                placeholder="Enter your email"
-                className="px-4 py-2 rounded-l-lg w-full text-primary-900 bg-primary-500"
-              />
-              <button className="bg-primary-400 text-primary-900 px-4 py-2 rounded-r-lg hover:bg-primary-300 transition-colors">
-                Subscribe
-              </button>
-            </div>
-          </div>
+          {/* Removed Newsletter Section */}
+
         </div>
         
         <div className="border-t border-primary-800 mt-8 pt-8 text-center text-primary-600">
