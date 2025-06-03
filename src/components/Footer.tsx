@@ -45,7 +45,6 @@ export default function Footer() {
           {/* Removed Newsletter Section */}
 
         </div>
-        
         <div className="border-t border-primary-800 mt-8 pt-8 text-center text-primary-600">
           <p>© {new Date().getFullYear()} ZenRider. All rights reserved.</p>
         </div>
